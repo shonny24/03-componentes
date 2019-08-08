@@ -31,7 +31,7 @@ export class CheckPage implements OnInit {
   ngOnInit() {
   }
 
-  onClick( check ){
+  onClick( check ) {
     console.log(check);
   }
 
