@@ -14,7 +14,7 @@ export class DateTimePage implements OnInit {
   ngOnInit() {
   }
 
-  cambioFecha(event){
+  cambioFecha(event) {
     console.log('ionCHange', event);
     console.log('Date', new Date (event.detail.value));
   }
