@@ -19,7 +19,7 @@ export class InputPage implements OnInit {
   ngOnInit() {
   }
 
-  onSubmitTemplate(){
+  onSubmitTemplate() {
     console.log('Form submit');
     console.log(this.usuario);
   }
