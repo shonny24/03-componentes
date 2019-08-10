@@ -9,7 +9,7 @@ import { IonInfiniteScroll } from '@ionic/angular';
 export class InfiniteScrollPage implements OnInit {
 
   /* Se utiliza para obtener alguna elemento del html */
-  @ViewChild( IonInfiniteScroll , null) infiniteScroll:IonInfiniteScroll;
+  @ViewChild( IonInfiniteScroll , null) infiniteScroll: IonInfiniteScroll;
 
   data: any[] = Array (20);
 
